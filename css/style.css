@@ -1,0 +1,117 @@
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estilos de header*/
+header{
+    padding: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    header img {
+      max-width: 30%; /* Asegura que la imagen se ajuste al tamaño del header */
+      height: auto;
+    }
+
+ul {
+  list-style: none;  /* Eliminar los puntos de la lista */
+  padding-left: 0;   /* Eliminar el margen izquierdo por defecto */
+}
+
+ol {
+  list-style: none;  /* Eliminar los números o puntos */
+  padding-left: 0;   /* Eliminar el margen izquierdo por defecto */
+}
+
+}
+header h1{
+    color: white;
+    font-size: 25px; 
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white; 
+
+ header nav{
+  list-style: none;
+ }   
+}
+header nav ul{
+    display: flex;
+    gap: 15px
+  
+}
+/* estilos del mail*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+    
+}
+main .img{
+    display: flex;
+    justify-content: center;
+}
+main .img img{
+    width: 50%;
+}
+*/estilos de footer*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Para que ocupe toda la altura de la pantalla */
+    margin: 0;
+  }
+  
+  .contenido {
+    flex: 1; /* Esto permite que el contenido se expanda 
+    y el footer quede en la parte inferior */
+  }
+  /* estilos del footer*/
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  .textos h1 {
+    color: black; /* Cambia el color del texto a azul */
+  }
+  .textos h2{
+    color: blue;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Columnas que se adaptan al tamaño de la pantalla */
+    gap: 16px; 
+    padding: 16px;
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .diferenciar-textos p{
+    color: #1e90ff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+    */estilos para movil*/
+@media screen {(max-width: 320px)
+  
+}
+
+header {
+  width: 100%;
+  
+}
+     
