@@ -1,0 +1,19 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixin';
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .item {
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+  }

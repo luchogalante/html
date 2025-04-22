@@ -1,0 +1,71 @@
+@use 'abstracts/variables' as variables;
+@use '../abstracts/mixin';
+header {
+    padding: 40px;
+    background-color: variables.$coloor-principal;
+    width: 100%;
+    @include flex-between;
+  
+    img {
+      max-width: 30%;
+      height: auto;
+    }
+  
+    h1 {
+      color: variables.$coloor-secundario;
+      font-size: 25px;
+    }
+  
+    nav {
+      ul {
+        @include flex-center;
+        gap: 15px;
+        list-style: none;
+        padding-left: 0;
+  
+        li {
+          a {
+            text-decoration: none;
+            color: variables.$coloor-secundario;
+          }
+        }
+      }
+    }
+  
+    ul,
+    ol {
+      list-style: none;
+      padding-left: 0;
+    }
+  }
+  
+  main {
+    width: 100%;
+    @include flex-center;
+  
+    .img {
+      @include flex-center;
+  
+      img {
+        width: 50%;
+      }
+    }
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  
+    .contenido {
+      flex: 1;
+    }
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: variables.$coloor-secundario;
+    padding: 10px;
+  }

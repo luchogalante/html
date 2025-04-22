@@ -1,0 +1,15 @@
+
+// abstracts
+@use 'abstracts/variables' as variables;
+@use 'abstracts/mixin';
+
+// base
+@use 'base/reset';
+
+// pages
+@use 'pages/home';
+@use 'pages/servicios';
+@use 'pages/proyectos';
+@use 'pages/clientes';
+@use 'pages/contacto';
+
